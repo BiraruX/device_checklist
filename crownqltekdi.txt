@@ -1,0 +1,33 @@
+Blocking checks
+- [ ] Correct screen/recovery size
+- [ ] Working Touch, screen
+- [ ] Backup to internal/microSD
+- [ ] Restore from internal/microSD
+- [ ] Reboot to system
+- [ ] ADB
+
+Medium checks
+- [ ] update.zip sideload
+- [ ] UI colors (red/blue inversions)
+- [ ] Screen goes off and on
+- [ ] F2FS/EXT4 Support, exFAT/NTFS where supported
+- [ ] All important partitions listed in mount/backup lists
+- [ ] Backup/restore to/from external (USB-OTG) storage (not supported by the device)
+- [ ] Backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
+- [ ] Decrypt /data
+- [ ] Correct date
+
+Minor checks
+- [ ] MTP export
+- [ ] Reboot to bootloader
+- [ ] Reboot to recovery
+- [ ] Poweroff
+- [ ] Battery level
+- [ ] Temperature
+- [ ] Encrypted backups
+- [ ] Input devices via USB (USB-OTG) - keyboard, mouse and disks (not supported by the device)
+- [ ] USB mass storage export
+- [ ] Set brightness
+- [ ] Vibrate
+- [ ] Screenshot
+- [ ] Partition SD card
